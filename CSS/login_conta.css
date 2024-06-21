@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pos-left {
+    float: left;
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pos-right {
+    float: right;
+    width: 50%;
+    height: 100vh;
+    background: red;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: red;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.textbox {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: calc(100% - 50px);
+    padding: 10px 10px 10px 40px;
+    background: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    outline: none;
+}
+
+.textbox input::placeholder {
+    color: #888;
+}
+
+.textbox i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transition: 0.3s ease-in-out;
+    transform: translateY(-5px);
+}
+
+.signup {
+    margin-top: 20px;
+    color: black;
+}
+
+.signup a {
+    color: red;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+.voltar
+{
+    display: flex; 
+    justify-content: center;
+}
+
+.voltar a
+{
+    padding-top: 10px;
+    font-size: 20px;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.voltar a:hover
+{
+    color: red;
+    transition: 0.3s ease-in-out;
+}

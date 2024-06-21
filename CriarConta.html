@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMG/LOGO_img.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/login_conta.css">
+    <title>Login - Evolution Fitness</title>
+
+</head>
+<body>
+    <div class="pos-left">
+        <div class="container-img">
+            <img src="IMG/LOGO_novo.png" alt="">
+        </div>
+    </div>
+    <div class="pos-right">
+        <div class="login-box">
+            <h2>CRIAR CONTA</h2>
+            <form action="CriarConta.php" method="post">
+                <div class="textbox">
+                    <input type="text" placeholder="Nome Completo" name="nome" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="textbox">
+                    <input type="email" placeholder="Email" name="email" required>
+                    <i class="fa-solid fa-at"></i>
+                </div>
+                <div class="textbox">
+                    <input type="password" placeholder="Password" name="password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <button type="submit" class="btn">Criar</button>
+                <p class="signup">Já tens conta? <a href="Login.html">Entrar</a></p>
+                <div class="voltar">
+                    <a href="Index.php"><i class="fa-regular fa-circle-xmark"></i></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/c97cbab7f2.js" crossorigin="anonymous"></script>
+</body>
+</html>
